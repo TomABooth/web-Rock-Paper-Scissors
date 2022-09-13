@@ -19,3 +19,5 @@ Logic Rules:
 -   Rock beats Scissors
 -   Scissors beats Paper
 -   Paper beats Rock
+
+![](./wireframe.png)

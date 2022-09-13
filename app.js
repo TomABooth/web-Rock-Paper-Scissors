@@ -9,15 +9,11 @@ let computer = 'scissors'; // // 'rock' 'paper' 'scissors'
 /* Actions */
 function loadPage() {}
 
-function playAgain() {
-    gameState = '';
-}
-
 /* Components */
 const rock = document.getElementById('rock');
 const paper = document.getElementById('paper');
 const scissors = document.getElementById('scissors');
-// const playAgain = document.getElementById('play-again');
+const playAgain = document.getElementById('play-again');
 
 /* Component */
 // get DOM
@@ -40,6 +36,11 @@ scissors.addEventListener('click', () => {
     choice = 'scissors';
     gameState = 'results';
     // console.log('scissors pick');
+});
+
+playAgain.addEventListener('click', () => {
+    gameState = 'choice';
+    // console.log('reset');
 });
 
 /* Run page load code */
