@@ -22,7 +22,7 @@ header {
 
 main {
     display: grid;
-    grid-template-rows: 200px 50px 50px 50px;
+    grid-template-rows: 200px 50px 50px 50px 50px;
 }
 
 #scoreboard {
