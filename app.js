@@ -21,12 +21,6 @@ const drawScore = document.getElementById('draw-score');
 
 /* Component */
 // get DOM
-if (gameState === 'choice') {
-    let wins = 0;
-    let total = 0;
-    let draw = total - wins;
-    console.log(choice);
-}
 
 // display
 // event listeners
