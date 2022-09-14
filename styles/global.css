@@ -21,5 +21,27 @@ header {
 }
 
 main {
-    padding: 20px;
+    display: grid;
+    grid-template-rows: 200px 50px 50px 50px 50px;
+}
+
+#scoreboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1fr;
+}
+
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
