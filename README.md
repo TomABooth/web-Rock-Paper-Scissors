@@ -20,4 +20,4 @@ Logic Rules:
 -   Scissors beats Paper
 -   Paper beats Rock
 
-![](./wireframe.png)
+![](./Wireframe.png)
