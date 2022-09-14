@@ -4,10 +4,7 @@
 let gameState = ''; // 'results' or 'choice'
 let choice = ''; // 'rock' 'paper' 'scissors'
 let results = ''; // 'win' 'lose' 'draw'
-let computer = 'scissors'; // // 'rock' 'paper' 'scissors'
-
-let wins = 2;
-let total = 0;
+let computer = ''; // // 'rock' 'paper' 'scissors'
 
 /* Actions */
 function loadPage() {}
@@ -18,9 +15,9 @@ const paper = document.getElementById('paper');
 const scissors = document.getElementById('scissors');
 const playAgain = document.getElementById('play-again');
 
-const winscore = document.getElementById('win-score');
-const losescore = document.getElementById('lose-score');
-const drawscore = document.getElementById('draw-score');
+const winScore = document.getElementById('win-score');
+const loseScore = document.getElementById('lose-score');
+const drawScore = document.getElementById('draw-score');
 
 /* Component */
 // get DOM
